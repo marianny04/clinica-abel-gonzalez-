@@ -1,0 +1,45 @@
+.nosotros-info{
+	
+	text-align: center;
+	font-family: times new roman;
+	font-size: 20px;
+}
+
+.misión h2{
+	font-family: times new roman;
+	text-align: justify;
+	margin-left: 300px;
+}
+
+.misión p {
+	text-align: left;
+	font-family: times new roman;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+
+.visión h2{
+	text-align: right;
+	font-family: times new roman;
+	margin-right: 250px;
+	margin-top: 50px;
+}
+
+.visión p{
+	text-align: right;
+	font-family: times new roman;
+	right: -20px;
+	top: -20px;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.nosotros{
+	width: 1303px;
+	min-height: 200px;
+	background: white;
+	float: right;
+	box-sizing: border-box;
+	padding: 20px 0px;
+}

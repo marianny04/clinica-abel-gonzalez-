@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+background:#F3E5AE ;
+padding: 20px;
+}
+
+
+/*CABECERA*/
+header{
+max-width:2000px ;
+min-height:120px ;
+background:white;
+margin: 0 auto;	
+border-radius: 20px 20px 0 0 ;
+
+}
+
+.logo{width:320px ;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	animation: 1s entradalogo 1;
+}
+
+
+header p{
+	text-align: right;
+	color: blue;
+	font-size: 25px;
+	position: relative;
+	top: 50px;
+	left: -40px;
+}
+/*CABECERA*/
+
+
+
+/*MENU-HORIZONTAL*/
+#menu-h {
+	max-width: 2000px;
+	min-height: 65px;
+	background-color: blue;
+	margin: 0 auto;
+	position: fixed;
+	width: 1303px;
+}
+
+#menu-h ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+#menu-h a{
+	color:#fff ;
+	display: block;
+	padding: 11px;
+	text-decoration: none;
+	background:blue;
+	font-family: arial;
+	font-size: 18px;
+	position: relative;
+	top: 20px;
+
+}
+
+
+#menu-h a:hover{
+	background:black;
+	filter: brightness(1.0);
+}
+
+#menu-h ul ul{
+	display: none;
+	position: absolute;	
+}
+
+#menu-h ul li:hover ul{
+	display: block;
+}
+
+/*MENU-HORIZONTAL*/
+
+
+/*sleder*/
+.slider{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+
+
+.slider ul{
+	display: flex;
+	animation: cambio 20s infinite;
+	alternate linear;
+	width: 400%;
+}
+
+
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+
+.slider{
+	max-width: 1317px;
+	min-height: 100px;
+	background: #ccc;
+	margin: 0 auto;
+}
+
+.slider img{
+	width: 100%;
+	height: 100%;
+}
+
+.slider li img{
+	width: 1303px;
+	height: 450px;
+}
+
+@keyframes cambio{
+
+	0%{ margin-left: 0%; }
+	20%{ margin-left:0%; }
+
+	25%{ margin-left:-100%;}
+	45%{ margin-left:-100%;}
+
+	50%{ margin-left:-200%;}
+	70%{ margin-left:-200%;}
+
+	75%{ margin-left:-300%;}
+	100%{ margin-left:-300%;}
+}
+/*sleder*/
+

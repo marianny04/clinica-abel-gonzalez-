@@ -1,0 +1,43 @@
+.banner{
+max-width:1303px ;
+min-height:100px ;
+background:blue;
+margin: 0 auto;	
+padding: 30px;
+}
+
+.banner h1{
+	font-family: times new roman;
+	color: white;
+	text-align:center;
+}
+
+.servicios{
+	padding: 20px 20px;
+}
+
+
+.Servicios{
+	width: 1303px;
+	min-height: 600px;
+	background: white;
+	float: right;
+	box-sizing: border-box;
+	padding: 15px 0px;
+}
+
+.father {
+	display: flex;
+	margin: 100px;
+}
+
+.father img {
+	margin: 40px;
+}
+
+.hijo h2 {
+ position: relative;
+ top: -40px;
+ right: -60px;
+}
+
